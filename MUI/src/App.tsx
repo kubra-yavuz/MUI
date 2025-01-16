@@ -1,6 +1,8 @@
 
 import './App.css'
-import LessonCheckbox from './components/LessonCheckbox'
+import LessonBox from './components/LessonBox'
+
+
 
 
 function App() {
@@ -8,7 +10,9 @@ function App() {
 
   return (
     // <LessonSelect />
-    <LessonCheckbox />
+    // <LessonCheckbox />
+    // <LessonAutoComplete />
+    <LessonBox />
   )
 }
 
